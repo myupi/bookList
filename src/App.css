@@ -1,0 +1,26 @@
+.box {
+    width: 1200px;
+    height: 1400px;
+    background-color: #333333;
+    position: absolute;
+    top: -300px;
+    left: -200px;
+    border-radius: 50px;
+    transform: rotateZ(30deg);
+    z-index: -1;
+}
+
+.App {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.App.appHidden{
+    overflow: hidden;
+    height: 100vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
